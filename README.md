@@ -1,4 +1,4 @@
-# PHP-Excel-Factory
+# PHP-Excel-Factory [Excel for php]
 A simple and easy to use excel generating library for php
 
 #IMPLEMENTATION
