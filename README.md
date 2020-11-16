@@ -1,21 +1,19 @@
-# PHP-Excel-Factory [Excel for php]
-A simple and easy to use excel generating library for php
-
-#IMPLEMENTATION
-To start using this library, you just need to require the main file excel_generator.php only, no need of other dependencies
-and libraries, only php is good to go.
-
-#CODE IMPLEMENTATION
-//require the file
-require "excel_generator.php";
+# PHP-Excel-Factory [Excel for php]<br>
+A simple and easy to use excel generating library for php<br>
+<br>
+#IMPLEMENTATION<br>
+To start using this library, you just need to require the main file excel_generator.php only, no need of other dependencies<br>
+and libraries, only php is good to go.<br>
+<br>
+#CODE IMPLEMENTATION<br>
+//require the file<br>
+require "excel_generator.php";<br>
 $generator = new excel_generator();<br>
 $generator->add_sheet('Sheet 1');<br>
 $generator->add_sheet('Sheet 2');<br>
 $generator->add_sheet('Sheet 3');<br>
 <br>
-<br>
 //$generator->add_row('sheet_name_defined earlier', [array to store as columns]);
-<br>
 <br>
 $generator->add_row('Sheet 1',['Wongani Kaluwa','MWK 2000 ','Lumbadzi','Peaches']);<br>
 $generator->add_row('Sheet 1',['ALfred Banda','MWK 2000 ','Lumbadzi','Peaches']);<br>
